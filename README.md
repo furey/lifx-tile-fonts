@@ -2,6 +2,15 @@
 
 Fonts for use in [LIFX Tile](https://www.lifx.com/collections/creative-tiles) effects. 👨‍🔬🔠
 
+## Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Fonts](#fonts)
+- [Credits](#credits)
+- [License](#license)
+
 ## Requirements
 
 - [`node -v`](https://nodejs.org/en/download/current/) >= `v12.10.*`
@@ -17,10 +26,11 @@ $ npm install furey/lifx-tile-fonts#semver:^v1
 
 ```JavaScript
 const { chars, groups } = require('lifx-tile-fonts')
-const e = Object.entries
 
 console.log(chars)
 // !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^|~•
+
+const e = Object.entries
 
 console.log(e(groups).map(([group]) => group))
 // [ 'echolevel', 'oldschool-pc-fonts' ]
@@ -100,6 +110,10 @@ This repo includes `8x8` fonts sourced from:
 
 - [Protracker v2.3D/v2.3E Font](https://github.com/echolevel/protracker-font)
 - [The Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/)
+
+## Credits
+
+This repo is created by the [lifx-tile-fonts-generator](https://github.com/furey/lifx-tile-effects-framework). ⚙️🔠
 
 ## License
 
