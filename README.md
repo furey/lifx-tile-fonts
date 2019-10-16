@@ -13,6 +13,87 @@ Fonts for use in [LIFX Tile](https://www.lifx.com/collections/creative-tiles) ef
 $ npm install furey/lifx-tile-fonts#semver:^v1
 ```
 
+## Usage
+
+```JavaScript
+const { chars, groups } = require('lifx-tile-fonts')
+const e = Object.entries
+
+console.log(chars)
+// !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^|~•
+
+console.log(e(groups).map(([group]) => group))
+// [ 'echolevel', 'oldschool-pc-fonts' ]
+
+console.log(e(groups['oldschool-pc-fonts'].fonts).map(([font]) => font))
+// [
+//   'ami',         'amstrad',
+//   'ati',         'dtk',
+//   'ibm-bios',    'ibm-cga',
+//   'ibm-conv',    'itt',
+//   'kaypro2K',    'phoenix-bios',
+//   'phoenix-ega', 'tandy-new',
+//   'tandy-old',   'toshiba',
+//   'verite',      'v-tech'
+// ]
+
+const preview = (groupName, fontName, charSymbol) => {
+  const group = groups[groupName]
+  const font = group.fonts[fontName]
+  const char = font.chars[chars.indexOf(charSymbol)]
+  console.log(`Group: ${groupName}`)
+  console.log(`Font: ${fontName}`)
+  console.log(`Char: ${charSymbol}`)
+  console.log('Char Bounds:', char.bounds)
+  for (let i = 0; i < char.colors.length; i += 8) {
+    const row = char.colors.slice(i, i + 8)
+    console.log(row.map(_ => _ === 'X' ? '█' : '·').join(''))
+  }
+}
+
+preview('oldschool-pc-fonts', 'ami', 'A')
+// Group: oldschool-pc-fonts
+// Font: ami
+// Char: A
+// Char Bounds: { left: 0, right: 6, top: 1, bottom: 7, width: 7, height: 7 }
+// ········
+// ··███···
+// ·██·██··
+// ██···██·
+// ██···██·
+// ███████·
+// ██···██·
+// ██···██·
+
+preview('oldschool-pc-fonts', 'ibm-conv', 'A')
+// Group: oldschool-pc-fonts
+// Font: ibm-conv
+// Char: A
+// Char Bounds: { left: 1, right: 7, top: 1, bottom: 7, width: 7, height: 7 }
+// ········
+// ···███··
+// ····██··
+// ···███··
+// ···█·██·
+// ··█████·
+// ··█···██
+// ·██···██
+
+preview('oldschool-pc-fonts', 'v-tech', 'A')
+// Group: oldschool-pc-fonts
+// Font: v-tech
+// Char: A
+// Char Bounds: { left: 0, right: 5, top: 1, bottom: 7, width: 6, height: 7 }
+// ········
+// ··██····
+// ·█··█···
+// █····█··
+// █····█··
+// ██████··
+// █····█··
+// █····█··
+```
+
 ## Fonts
 
 This repo includes `8x8` fonts sourced from:
