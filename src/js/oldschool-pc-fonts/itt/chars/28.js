@@ -1,4 +1,4 @@
-module.exports = [
+module.exports = {
   char: `=`,
   bounds: {
     left: 0,
@@ -7,7 +7,7 @@ module.exports = [
     bottom: 5,
     width: 6,
     height: 3
-  }
+  },
   colors: {
     ' ',' ',' ',' ',' ',' ',' ',' ',
     ' ',' ',' ',' ',' ',' ',' ',' ',
@@ -18,4 +18,4 @@ module.exports = [
     ' ',' ',' ',' ',' ',' ',' ',' ',
     ' ',' ',' ',' ',' ',' ',' ',' ',
   }
-]
+}
