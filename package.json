@@ -1,0 +1,19 @@
+{
+  "name": "lifx-tile-fonts",
+  "version": "1.0.0",
+  "description": "Fonts for use in LIFX Tile effects.",
+  "main": "src/js/index.js",
+  "keywords": [
+    "lifx",
+    "tile",
+    "font",
+    "fonts",
+    "effects",
+    "node",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "James Furey (https://github.com/furey)",
+  "url": "https://github.com/furey",
+  "license": "ISC"
+}
