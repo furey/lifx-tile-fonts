@@ -1,5 +1,5 @@
 module.exports = {
-  char: `\`,
+  char: `\\`,
   bounds: {
     left: 1,
     right: 7,
