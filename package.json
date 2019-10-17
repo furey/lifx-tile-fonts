@@ -1,6 +1,6 @@
 {
   "name": "lifx-tile-fonts",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Fonts for use in LIFX Tile effects.",
   "main": "src/js/index.js",
   "keywords": [
