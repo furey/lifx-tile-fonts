@@ -65,7 +65,7 @@ preview('oldschool-pc-fonts', 'ami', 'A')
 // Group: oldschool-pc-fonts
 // Font: ami
 // Char: A
-// Char Bounds: { left: 0, right: 6, top: 1, bottom: 7, width: 7, height: 7 }
+// Bounds: { left: 0, right: 6, top: 1, bottom: 7, width: 7, height: 7 }
 // ········
 // ··███···
 // ·██·██··
@@ -79,7 +79,7 @@ preview('oldschool-pc-fonts', 'ibm-conv', 'A')
 // Group: oldschool-pc-fonts
 // Font: ibm-conv
 // Char: A
-// Char Bounds: { left: 1, right: 7, top: 1, bottom: 7, width: 7, height: 7 }
+// Bounds: { left: 1, right: 7, top: 1, bottom: 7, width: 7, height: 7 }
 // ········
 // ···███··
 // ····██··
@@ -93,7 +93,7 @@ preview('oldschool-pc-fonts', 'v-tech', 'A')
 // Group: oldschool-pc-fonts
 // Font: v-tech
 // Char: A
-// Char Bounds: { left: 0, right: 5, top: 1, bottom: 7, width: 6, height: 7 }
+// Bounds: { left: 0, right: 5, top: 1, bottom: 7, width: 6, height: 7 }
 // ········
 // ··██····
 // ·█··█···
