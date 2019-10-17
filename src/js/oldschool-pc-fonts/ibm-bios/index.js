@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'ibm-bios',
+  path: 'ttf/oldschool-pc-fonts/ibm-bios.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

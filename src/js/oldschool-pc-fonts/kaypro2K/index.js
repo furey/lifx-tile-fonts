@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'kaypro2K',
+  path: 'ttf/oldschool-pc-fonts/kaypro2K.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

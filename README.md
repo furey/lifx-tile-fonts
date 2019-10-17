@@ -54,7 +54,7 @@ const preview = (groupName, fontName, charSymbol) => {
   console.log(`Group: ${groupName}`)
   console.log(`Font: ${fontName}`)
   console.log(`Char: ${charSymbol}`)
-  console.log('Char Bounds:', char.bounds)
+  console.log('Bounds:', char.bounds)
   for (let i = 0; i < char.colors.length; i += 8) {
     const row = char.colors.slice(i, i + 8)
     console.log(row.map(_ => _ === 'X' ? '█' : '·').join(''))

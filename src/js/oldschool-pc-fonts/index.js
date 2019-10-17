@@ -1,4 +1,5 @@
 module.exports = {
+  name: 'oldschool-pc-fonts',
   source: 'https://int10h.org/oldschool-pc-fonts/',
   fonts: {
     'ami': require('./ami/index.js'),

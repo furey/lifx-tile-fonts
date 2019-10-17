@@ -1,18 +1,18 @@
 module.exports = {
-  char: `~`,
+  char: `/`,
   bounds: {
-    left: 0,
-    right: 6,
-    top: 1,
-    bottom: 3,
-    width: 7,
-    height: 3
+    left: undefined,
+    right: undefined,
+    top: undefined,
+    bottom: undefined,
+    width: NaN,
+    height: NaN,
   },
   colors: [
     ' ',' ',' ',' ',' ',' ',' ',' ',
-    ' ','X','X',' ',' ','X','X',' ',
-    'X','X',' ','X',' ','X','X',' ',
-    'X','X',' ',' ','X','X',' ',' ',
+    ' ',' ',' ',' ',' ',' ',' ',' ',
+    ' ',' ',' ',' ',' ',' ',' ',' ',
+    ' ',' ',' ',' ',' ',' ',' ',' ',
     ' ',' ',' ',' ',' ',' ',' ',' ',
     ' ',' ',' ',' ',' ',' ',' ',' ',
     ' ',' ',' ',' ',' ',' ',' ',' ',

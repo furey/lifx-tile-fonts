@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'verite',
+  path: 'ttf/oldschool-pc-fonts/verite.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

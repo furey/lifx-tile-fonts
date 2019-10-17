@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'ami',
+  path: 'ttf/oldschool-pc-fonts/ami.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

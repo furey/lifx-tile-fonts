@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'protracker',
+  path: 'ttf/echolevel/protracker.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

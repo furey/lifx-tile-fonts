@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'ibm-cga',
+  path: 'ttf/oldschool-pc-fonts/ibm-cga.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

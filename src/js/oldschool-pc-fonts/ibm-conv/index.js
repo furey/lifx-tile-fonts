@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'ibm-conv',
+  path: 'ttf/oldschool-pc-fonts/ibm-conv.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

@@ -6,7 +6,7 @@ module.exports = {
     top: 1,
     bottom: 7,
     width: 2,
-    height: 7
+    height: 7,
   },
   colors: [
     ' ',' ',' ',' ',' ',' ',' ',' ',

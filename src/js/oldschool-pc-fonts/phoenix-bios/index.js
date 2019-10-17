@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'phoenix-bios',
+  path: 'ttf/oldschool-pc-fonts/phoenix-bios.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

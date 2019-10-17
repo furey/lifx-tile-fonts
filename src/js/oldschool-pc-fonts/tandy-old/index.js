@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'tandy-old',
+  path: 'ttf/oldschool-pc-fonts/tandy-old.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),

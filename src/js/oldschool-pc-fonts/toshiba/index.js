@@ -1,4 +1,6 @@
 module.exports = {
+  name: 'toshiba',
+  path: 'ttf/oldschool-pc-fonts/toshiba.ttf',
   chars: {
     '0': require('./chars/0.js'),
     '1': require('./chars/1.js'),
