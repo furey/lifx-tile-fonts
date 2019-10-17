@@ -113,7 +113,7 @@ This repo includes `8x8` fonts sourced from:
 
 ## Credits
 
-This repo is created by the [lifx-tile-fonts-generator](https://github.com/furey/lifx-tile-effects-framework). ⚙️🔠
+This repo is created by the [lifx-tile-fonts-generator](https://github.com/furey/lifx-tile-fonts-generator). ⚙️🔠
 
 ## License
 
