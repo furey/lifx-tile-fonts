@@ -19,7 +19,7 @@ Fonts for use in [LIFX Tile](https://www.lifx.com/collections/creative-tiles) ef
 ## Installation
 
 ```console
-$ npm install furey/lifx-tile-fonts#semver:^v1
+$ npm install furey/lifx-tile-fonts#semver:^v2
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ $ npm install furey/lifx-tile-fonts#semver:^v1
 const { chars, groups } = require('lifx-tile-fonts')
 
 console.log(chars)
-// !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^|~•
+// ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789[]()<>!?@#$%&'"*+-=^~•:;.,|/\
 
 const e = Object.entries
 
